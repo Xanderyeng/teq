@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:wght@200;300;400;600;700;800;900&family=Inter:wght@400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+@font-face {
+  font-family: "a Astro Space";
+  src: local("a Astro Space");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+
+  color-scheme: dark;
+}
+
+/* Check out Gotham rounded font */
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Nunito', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Inter', sans-serif; */
+
+:root {
+  font-family: "";
+
+  --gradient: linear-gradient(
+    90.89deg,
+    hsla(284, 95%, 76%, 1) 5.39%,
+    hsla(216, 98%, 80%, 1) 50.36%,
+    hsla(203, 100%, 77%, 1) 99.23%
+  );
+  --blackBg: hsla(228, 99%, 2%, 1);
+}
+
+html {
+  font-size: 62.5%;
+  /* overflow: auto; */
+  background: var(--blackBg);
+}
+
+body {
+  height: 300vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.App {
+  font-size: 2.4rem;
+}
+
+.gradient-mask {
+  background-image: var(--gradient);
+}
+
+.overlay {
+  background: linear-gradient(
+    90deg,
+    var(--blackBg),
+    53.2%,
+    rgba(26, 27, 31, 0.67) 67.95%,
+    rgba(26, 27, 31, 0) 88.03%
+  );
+}
+
+.text-mask {
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-mask-2{
+  background: linear-gradient(90.96deg, #DE89FC 18.06%, #9AC2FE 59.24%, rgba(243, 139, 44, 0) 96.34%, #88D2FF 96.34%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.nav-bg {
+  background: rgba(0, 2, 10, 0.825);
+}
+
+.card-gradient {
+  -webkit-transition: background-image 2s ease-out;
+  -moz-transition: background-image 2s ease-out;
+  -o-transition: background-image 2s ease-out;
+  transition: background-image 2s ease-out;
+}
+
+.card-gradient:hover {
+  background-image: var(--gradient);
+}
+
+.card-svg svg {
+
+  fill: hsla(203, 100%, 77%, 1);
+}
+
+.section-radial-bg {
+  /* border: 2px solid red; */
+  background: radial-gradient(
+      124.69% 1074.59% at -7.51% -40.3%,
+      hsla(284, 95%, 76%, 1) 17.55%,
+      hsla(203, 100%, 77%, 1) 77.08%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  filter: blur(110px);
+}
+
+.success-blur{
+  background: radial-gradient(146.3% 1115.38% at -36.97% -45%, rgba(154, 194, 254, 1) 49.89%, rgba(136, 210, 255, 1) 77.08%);
+filter: blur(180px);
+}
