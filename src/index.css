@@ -62,13 +62,8 @@ body {
 }
 
 .overlay {
-  background: linear-gradient(
-    90deg,
-    var(--blackBg),
-    53.2%,
-    rgba(26, 27, 31, 0.67) 67.95%,
-    rgba(26, 27, 31, 0) 88.03%
-  );
+  background: linear-gradient(90deg, #1A212F 6.64%, rgba(26, 27, 31, 0.89) 22.66%, rgba(26, 27, 31, 0) 53.94%);
+  /* transform: rotate(90deg); */
 }
 
 .text-mask {
