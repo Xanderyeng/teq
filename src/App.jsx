@@ -1,11 +1,11 @@
-import { Navbar, Hero} from "./components";
+import { Navbar, Hero, Courses } from "./components";
 
 const App = () => {
   return (
       <div className='relative z-0'>
         <Navbar />
         <Hero />
-        {/* <Courses /> */}
+        <Courses />
         {/* <Success /> */}
         {/* <Contact /> */}
         {/* <Footer /> */}
