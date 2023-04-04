@@ -38,7 +38,7 @@
     hsla(216, 98%, 80%, 1) 50.36%,
     hsla(203, 100%, 77%, 1) 99.23%
   );
-  --blackBg: hsla(228, 99%, 2%, 1);
+  --blackBg: hsla(211, 43%, 29%, 1);
 }
 
 html {
@@ -86,7 +86,7 @@ background-clip: text;
 }
 
 .nav-bg {
-  background: rgba(0, 2, 10, 0.825);
+  background: hsla(210, 43%, 15%, 1);
 }
 
 .card-gradient {

@@ -19,7 +19,7 @@ module.exports = {
         red: "red",
         maroon: "rgba(94, 57, 55, 1)",
         yellow: "rgba(254, 195, 82, 1)",
-        black: "hsla(228, 99%, 2%, 1)",
+        black: "hsla(211, 43%, 29%, 1)",
         gradient:
           "linear-gradient(90.89deg, hsla(284, 95%, 76%, 1) 5.39%, hsla(216, 98%, 80%, 1) 50.36%, hsla(203, 100%, 77%, 1) 99.23%)",
         green: "green",

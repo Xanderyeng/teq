@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { fadeIn } from "../utils/motion";
 
-export const CoursesCard = ({ index, icon, title, text }) => {
+const CoursesCard = ({ index, icon, title, text }) => {
   return (
     <motion.div
       variants={fadeIn("right", "spring", 0.75 * index, 0.75)}
@@ -39,3 +39,5 @@ export const CoursesCard = ({ index, icon, title, text }) => {
     </motion.div>
   );
 };
+
+export default CoursesCard;

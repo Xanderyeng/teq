@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 
-export const StatsCard = ({ title, number, icon, index }) => {
+const StatsCard = ({ title, number, icon, index }) => {
   const [counterOn, setcounterOn] = useState(false);
   return (
     <ScrollTrigger
@@ -23,3 +23,5 @@ export const StatsCard = ({ title, number, icon, index }) => {
     </ScrollTrigger>
   );
 };
+
+export default StatsCard;
